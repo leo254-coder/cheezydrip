@@ -27,8 +27,10 @@ def register_url():
 
     print(response.text)
 
-
+ 
 # register_url()
+
+
 
 
 def simulate_c2b_transaction():
