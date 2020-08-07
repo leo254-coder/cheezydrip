@@ -9,6 +9,7 @@ import keys
 
 def lipa_na_mpesa():
     formatted_time = get_timestamp()
+    
     decoded_password = generate_password(formatted_time)
     access_token = generate_access_token()
 
